@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    align-items: center;
+}
+body{
+    background-color: #f9f9f9;
+  color: #212529;
+  line-height: 1.6;}
+    
+.whole-table{
+    margin:0%;
+}
+.header{
+ background-color: #007BFF;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;}
+
+  .section {
+    flex: 2 1 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;}
+.def{flex-direction: row; flex-wrap: wrap;}
+.whole-table{
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 2px;
+
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.content{
+    justify-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  gap: 2rem;
+    padding: 2rem;
+    justify-content: center;}
+
+.parking-service{
+    flex-direction: row;
+    align-items:center;
+
+}
+
+
+.parking-solution{
+flex-wrap:wrap;
+}
+#service-box{
+
+    background-color: bisque;
+    align-items: center;
+    padding:10px;
+    flex-direction: row;
+}
+#service-box{
+    flex-wrap: wrap;
+    
+}
+#box{
+    background-color: azure;
+    display:flex;
+    flex-direction:row;
+    border-radius: 2%;
+    border-color:black;
+    border-width: 2px;
+    
+}
+#box:hover{
+    
+    background-color: rgb(204, 245, 245);
+}
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+footer {
+    width:100%;
+    background-color:rgb(12, 233, 137);
+    flex-basis:50%;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  }

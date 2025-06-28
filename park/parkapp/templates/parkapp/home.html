@@ -1,0 +1,180 @@
+{% extends 'parkapp/layout.html'%}
+<body>
+<div class='body'>
+    
+{% block content %}
+<div class="container">
+        <div class="def">
+        <section><h2>Simplify Your Car
+            Experience with ParkQwik</h2>
+        <p>The complete Parking App and Car Services Solution</p>
+        <section>
+        <img src="https://img.freepik.com/premium-vector/car-parking-lot-sign-zone-flat-cartoon-vehicle-park-are-city-landscape_101884-1655.jpg?w=2000" height='500'>
+        </div>
+</div>
+    <div class = "Parking-service">
+        <h2>We offer parking service at</h2>
+        <div id = 'sevice-box'>
+           <div id='box'><img src="https://img.icons8.com/?size=100&id=39829&format=png" alt=""></div>
+          <div id='box'><img src="https://img.icons8.com/?size=128&id=t3BHNqLRMgjL&format=png"></div>
+           <div id='box'><img src="https://img.icons8.com/?size=128&id=gWJMtLKeMH3u&format=png"></div>
+            <div id='box'><img src="https://img.icons8.com/?size=160&id=FnGRodKmuUWf&format=png"></div>
+            <div id='box'><img src="https://img.icons8.com/?size=160&id=etbsnywz6Ll7&format=png"></div>
+           
+        
+</div>
+</div>
+
+    <div class='card'>
+        <h2>Parking Solutions</h2>
+       
+        <section><nav class="parkSecdet">Nearby Parking</nav><p>Discover nearby parking options with our hourly, weekly,
+            daily, and monthly plans. No matter where you're headed,
+            our team is here to assist you in finding the perfect parking
+            spot near your location, whether it's at apartments, shops,
+            malls, events, and more.</p><img src="https://tse2.mm.bing.net/th/id/OIP.XlgcqoxbBlUdOEnfkSBTcAHaE8?pid=ImgDet&w=184&h=122&c=7&dpr=1.3"></section>
+
+            <section><nav class="parkSecdet" >EV Parking</nav><img src="https://static.vecteezy.com/system/resources/previews/013/725/031/non_2x/solar-cell-cars-parking-roof-ev-car-charging-station-in-factory-and-supermarket-or-house-isometric-vector.jpg" height="200"><p>We provide dedicated spaces for EV parking where you
+                can park, charge, and drive away, and repeat the
+                same until your subscription ends. We offer hourly,
+                daily,weekly, and monthly plans with enhanced security</p></section>
+
+                <section><nav class="parkSecdet">valut parking</nav><p>Elevate your parking experience with our Valet service.
+                    Whether you require parking for a brief visit or an extended
+                    stay, reserve your spot in advance and savor a smooth,
+                    contactless parking experience</p><img src="https://tse4.mm.bing.net/th/id/OIP.z0sDyICRqFMh-02ftpEa9AHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3"></section>
+        </div>
+    </div>
+
+<div><h2>Our Product Perks</h2>
+    <div><nav class="perks"><h2>Fast Booking</h2><img src='https://img.icons8.com/?size=100&id=x6qHDdOrXQLn&format=png'><p>You can book parking space in just a few steps</p></nav></div>
+    <div><nav class="perks"><h2>Cheeper Price</h2><img src='https://img.icons8.com/?size=100&id=8414&format=png'><p>We offer cost-effective parking subscription plans</p></nav></div>
+    <div><nav class="perks"><h2>Enhanced security</h2><img src='https://img.icons8.com/?size=100&id=10472&format=png'><p>Equipped with CCTV and array system</p></nav></div>
+    <div><nav class="perks"><h2>Covered Parking</h2><img src='https://img.icons8.com/ios11/60/password.png'></nav><p>Offers convenience and enhanced security</p></div>
+
+</div>
+
+<div>
+    <h2>Our Happy Customer</h2>
+    <section class ='customer'>
+        <div ><nav></nav></div>
+        <div ><nav></nav></div>
+        <div ><nav></nav></div>
+        <div ><nav></nav></div>
+    </section>
+</div>
+    <div id="playstoresec">
+        <section>
+            <h3>Download our Application</h3>
+            <p>By downloading ParkQwik, you gain access to a world of seamless parking experiences and car services right at your fingertips.</p>
+            <img src="https://img.icons8.com/?size=100&id=22982&format=png" alt="">
+            <img src="https://img.icons8.com/?size=100&id=bep_ZUj5TddJ&format=png">
+        </section>
+    </div>
+
+<div>
+    <section>
+        <div class="faq-section">
+
+          <section>
+            <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+            Can I reserve a parking spot in advance?
+            </div>
+            <div class="faq-answer">
+                Yes, you can book your parking space in advance. You can choose the date and time when you need your parking space.
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Can I Cancel my parking reservation?
+            </div>
+            <div class="faq-answer">
+                Yes, you can cancel your parking reservation before your allotted time by calling our customer support number.
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Does ParkQwik operate in multiple cities?
+            </div>
+            <div class="faq-answer">
+                Yes, we operate in all metro cities and the cities around them.
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                How can I extend my parking reservation?
+            </div>
+            <div class="faq-answer">
+                You can either rebook or contact customer support to extend your parking.
+            </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                Do you offer valet parking service?
+            </div>
+            <div class="faq-answer">
+                Yes, we do offer valet parking services. You can reach out to our customer support number at 842 842 88 33 to book your valet parking.
+            </div>
+            </div>
+        </section>
+          
+          
+    </section>
+</div>
+    </div>
+   
+    </div>
+</div>
+{% endblock%}
+<footer>
+    <div>
+        <div><h2>ParkQuik</h2><p>the computer parking app and car parking solution </p><h4>Follow as on:</h4></div>
+        <div><h2>Quick Links</h2>
+            <a href="">About Us</a>
+            <a href="">Blogs</a>
+            <a href="">NewsLetters</a>
+            <a href="">Help and Support </a>
+            <a href="">Terms and Conditions</a>
+            <a href="">Privacy Policies</a>
+            <a href="">Refund and Cancellation policies</a>
+            <a href="">Data Deletion</a>
+        </div>
+    </div>
+    <section><div>
+        <h3>Products</h3>
+        <h6>Fastag Service</h6>
+        <h6>Nearby Parking</h6>
+        <h6>Ev Parking</h6>
+        <h6>DoorStep CarWash</h6>
+        <h6>Road Assistance car insurance</h6>
+        <h6>Shop</h6>
+
+    </div></section>
+    <section>
+        <ul><li>Email</li>
+            <li>Call</li>
+            <li>Location</li>
+        </ul>
+    </section>
+
+<div>
+    <h2>Our Office Address</h2>
+</div>
+</div>
+</footer>
+</body>
+</html>

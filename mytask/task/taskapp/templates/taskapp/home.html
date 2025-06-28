@@ -1,0 +1,72 @@
+{% extends 'taskapp/layout.html'%}
+{% load static %}
+{% block style %}<link rel='stylesheet' href={% static 'css/home.css'%}>
+<link rel='stylesheet' href={% static 'css/layout.css'%}>{% endblock %}
+{% block script%}{% endblock %}
+
+<body>
+    <div class='body'>
+        
+    {% block content %}
+    <div class='container-1'>
+    <div class="section-1">
+        <h2 id = 'title'>Simplify Your Car
+            Experience with ParkQwik</h2>
+        <p id='title-p'>The complete Parking App and Car Services Solution
+        <img  id = 'title-img' src="https://img.freepik.com/premium-vector/car-parking-lot-sign-zone-flat-cartoon-vehicle-park-are-city-landscape_101884-1655.jpg?w=2000" height='500'></p>
+            
+    </div></div>
+    
+    <div class='container-2'>
+            <h2>We offer parking service at</h2>
+            <div class='section-2'>
+            <div class ='sevice-box'>
+               <div id='box'><img src="https://cdn-icons-png.flaticon.com/128/3061/3061585.png" alt=""><p>FASTAG service</p></div>
+              <div id='box'><img src="https://cdn-icons-png.flaticon.com/128/8547/8547587.png"><p>Nearby Parking</p></div>
+               <div id='box'><img src="https://cdn-icons-png.flaticon.com/128/6982/6982377.png"><p>EV parking</p></div>
+                <div id='box'><img src="https://cdn-icons-png.flaticon.com/128/1743/1743700.png"><p>Car Insurance</p></div>
+                <div id='box'><img src="https://cdn-icons-png.flaticon.com/128/15764/15764690.png"><p>Car Assistance</p></div> 
+                <div id='box'><img src="https://cdn-icons-png.flaticon.com/128/829/829172.png"><p>Toll Estimator</p></div>    
+            </div>
+        </div>
+    </div>
+    
+        <div class='container-3'>
+            <h1>Parking Solutions</h1>
+           <div class='card-container'>
+            <div class='card'>
+                <p>Discover nearby parking options with our hourly, weekly,
+                daily, and monthly plans. No matter where you're headed,
+                our team is here to assist you in finding the perfect parking
+                spot near your location, whether it's at apartments, shops,
+                malls, events, and more.</p>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.XlgcqoxbBlUdOEnfkSBTcAHaE8?pid=ImgDet&w=184&h=122&c=7&dpr=1.3"></div>
+                
+                <div class='card'>
+                <h2>EV Parking</h2>
+                <img src="https://static.vecteezy.com/system/resources/previews/013/725/031/non_2x/solar-cell-cars-parking-roof-ev-car-charging-station-in-factory-and-supermarket-or-house-isometric-vector.jpg" height="200">
+                <p>We provide dedicated spaces for EV parking where you
+                    can park, charge, and drive away, and repeat the
+                    same until your subscription ends. We offer hourly,
+                    daily,weekly, and monthly plans with enhanced security</p></div>
+    
+                    <div class='card'>
+                    <h2>valut parking</h2>
+                    <p>Elevate your parking experience with our Valet service.
+                        Whether you require parking for a brief visit or an extended
+                        stay, reserve your spot in advance and savor a smooth,
+                        contactless parking experience</p>
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.z0sDyICRqFMh-02ftpEa9AHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3"></div>
+            
+                        <h2>Our Product Perks</h2>
+    <div class="product-perks">
+        <div><nav class="perks"><h2>Fast Booking</h2><img src='https://img.icons8.com/?size=100&id=x6qHDdOrXQLn&format=png'><p>You can book parking space in just a few steps</p></nav></div>
+        <div><nav class="perks"><h2>Cheeper Price</h2><img src='https://img.icons8.com/?size=100&id=8414&format=png'><p>We offer cost-effective parking subscription plans</p></nav></div>
+        <div><nav class="perks"><h2>Enhanced security</h2><img src='https://img.icons8.com/?size=100&id=10472&format=png'><p>Equipped with CCTV and array system</p></nav></div>
+        <div><nav class="perks"><h2>Covered Parking</h2><img src='https://img.icons8.com/ios11/60/password.png'></nav><p>Offers convenience and enhanced security</p></div>
+    
+    </div>
+    
+    
+    {% endblock%}
+    

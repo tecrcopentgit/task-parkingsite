@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+    <link rel='stylesheet' href="{% static 'css/layout.css'%}">
+    <script src="{% static 'script/home.js '%}"></script>
+</head>
+
+    <div class='whole-table'>
+    <div id ='sec'>
+    <div><h2>ParkQuik</h2>
+    <p >Parking Made Easy</p>
+    <a><img src = 'https://static.vecteezy.com/system/resources/previews/000/442/641/original/menu-vector-icon.jpg' height="30"></a>
+</div>
+</div>
+{% block content %}{% endblock %}
+<footer>
+    <div>
+        <div><h2>ParkQuik</h2><p>the computer parking app and car parking solution </p><h4>Follow as on:</h4></div>
+        <div><h2>Quick Links</h2>
+            <a href="{% url 'parkapp/about.html'}>About Us</a>|
+            <a href="">Blogs</a>|
+            <a href="">NewsLetters</a>|
+            <a href="">Help and Support </a>|
+            <a href="">Terms and Conditions</a>|
+            <a href="">Privacy Policies</a>|
+            <a href="">Refund and Cancellation policies</a>|
+            <a href="">Data Deletion</a>
+        </div>
+    </div>
+    <section><div>
+        <h3>Products</h3>
+        <h6>Fastag Service</h6>
+        <h6>Nearby Parking</h6>
+        <h6>Ev Parking</h6>
+        <h6>DoorStep CarWash</h6>
+        <h6>Road Assistance car insurance</h6>
+        <h6>Shop</h6>
+
+    </div></section>
+    <section>
+        <ul><li>Email</li>
+            <li>Call</li>
+            <li>Location</li>
+        </ul>
+    </section>
+
+<div>
+    <h2>Our Office Address</h2>
+</div>
+</div>
+</footer>
+</body>
+</html>

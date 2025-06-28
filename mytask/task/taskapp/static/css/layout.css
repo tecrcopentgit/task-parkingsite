@@ -1,0 +1,128 @@
+*{
+    margin:0%;
+    
+}
+
+
+#navid{
+    
+    margin: 1%;
+}
+#navid a{text-decoration: none;}#navid :hover{background-color: rgb(211, 135, 135);}
+.active{background-color: greenyellow; height: 20px;}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 10px;
+}  
+footer{
+
+    background-color: rgb(14, 245, 153);
+    width: 100%;
+}
+.bigboss{
+    flex-wrap: wrap;
+    flex-basis:4;
+    background-color: rgb(14, 245, 153);;
+}
+header{width: 100%;}
+.header-section {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #e8f0fe;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  }
+
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+    .header-left h2 {
+        margin: 0;
+        font-size: 2rem;
+        color: #2c3e50;
+      }
+      
+      .header-left p {
+        margin: 5px 0 0;
+        font-size: 1.1rem;
+        color: #555;
+      }
+           
+      .nav {
+        display: flex;
+        flex-wrap:wrap;
+        gap: 20px;
+        flex-direction: row-reverse;
+      }
+      
+      .navid a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: larger;
+      }
+      
+
+  .header-section h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #2c3e50;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 10px;
+  }
+  .nav a{ text-decoration: none;}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+    background-color: rgb(247, 234, 210);
+    margin: 0%;
+    box-shadow: 4px;
+
+}
+.playstoresec{
+
+    margin:5%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.playstoresec img{
+    width: 40px;
+    height: 40px;
+}
+.faq-section{
+    background-color: rgb(184, 230, 115);
+    margin: 2%;
+    padding:2%;
+    width: 100%;
+    border-color: black;
+    border-radius: 2%;
+    border-style: solid;
+}
+.faq-answer{
+    display: none;
+    border-width: 2px;
+    border-style:dashed;
+    background-color: aquamarine;
+}
+.st-box{
+display: flex;
+flex-direction: column;
+background-color: rgb(14, 245, 153);;
+
+}
